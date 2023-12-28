@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+position:fixed;
+top: 0;
+ width: 100%;
+ height: 70px;
+ background-color: black;
+ color: #fff;
+ padding-left:5%;
+ padding-right:5%;
+ display: flex;
+justify-content: space-between;
+}
+.logo{
+    width:10%;
+    height:70px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    width: 30%;
+    height: 70px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img{
+    height: 70px;
+}
+.search-bar{
+    width: 80%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.search-box{
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    text-indent: 20px;
+    border: none;
+    outline: none;
+}
+.search-icon{
+    /* width: 20%; */
+    height: 20px;
+}
+  
+
+/* movies css */
+.movies{
+  width: 100%;
+  padding: 50px 5%; 
+  background-color: rgb(231, 231, 231);
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 6.6%;
+  row-gap: 20px;
+}
+.movie{
+    width: 20%;
+    height: 318px;
+    /* background-color: red; */
+    overflow: hidden;
+    border-radius: 7px;
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.poster{
+    width: 100%;
+
+}
+.video{
+    width: 100%;
+    height: 50%;
+    /* background-color: yellow; */
+}
+.deatails{
+    /* margin-top:50% ; */
+     width: 100%;
+     height: 50%;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     row-gap: 10px;
+     /* background-color: rgb(76, 0, 255); */
+     color: #fff;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
